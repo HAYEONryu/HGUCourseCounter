@@ -50,6 +50,7 @@ public class Utils {
 		for(String w : lines){
 			colums++;
 			fw.write(w);
+			fw.write(",");
 			if( colums%4 == 0) {
 				fw.newLine();
 			}
