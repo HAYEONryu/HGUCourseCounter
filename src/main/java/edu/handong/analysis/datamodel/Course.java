@@ -28,11 +28,31 @@ public class Course {
 	public String courseCodegetter() {
 		return courseCode;
 	}
+	public String gradyeargetter() {
+		return yearMonthGraduated;
+	}
 	public int yeargetter() {
 		return yearTaken;
 	}
 	public int semgetter() {
 		return semesterCourseTaken;
+	}
+
+	public String firstmajorgetter() {
+		return firstMajor;
+	}
+	public String secondmajorgetter() {
+		return secondMajor;
+	}
+	
+	public String IDgetter() {
+		return studentId;
+	}
+	public String namegetter() {
+		return courseName;
+	}
+	public String creditgetter() {
+		return courseCredit;
 	}
 	/* Self-define getter and setter if needed*/
 
